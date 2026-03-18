@@ -1,0 +1,8 @@
+.vs/
+.vscode/
+**/node_modules/
+**/target/
+**/dist/
+.env
+*.log
+backend_log.txt
