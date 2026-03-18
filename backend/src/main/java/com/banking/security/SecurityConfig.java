@@ -55,6 +55,8 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(Arrays.asList(
                 "https://bank-vault-theta.vercel.app",
+                "https://bank-vault-phi.vercel.app",
+                "https://bank-vault-zeta.vercel.app",
                 "http://localhost:3000",
                 "http://localhost:5173"
         ));
