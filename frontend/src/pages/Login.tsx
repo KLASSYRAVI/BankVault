@@ -99,7 +99,6 @@ const Login: React.FC = () => {
                         <button 
                             type="submit" 
                             className="btn btn-primary w-full mt-2 py-3 text-[14px]"
-                            disabled={loading}
                         >
                             {loading ? <span className="spinner w-[18px] h-[18px]"></span> : 'Secure Login'}
                         </button>
